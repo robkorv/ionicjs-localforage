@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('IonicjsLocalforage', ['ionic', 'IonicjsLocalforage.services', 'IonicjsLocalforage.controllers'])
+angular.module('IonicjsLocalforage', ['ionic', 'LocalForageModule', 'IonicjsLocalforage.services', 'IonicjsLocalforage.controllers'])
 
 
 .config(['$stateProvider', '$urlRouterProvider',
